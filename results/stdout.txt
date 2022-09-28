@@ -1,0 +1,32 @@
+[W 2022-09-28 22:44:39.336 ServerApp] notebook_dir is deprecated, use root_dir
+[I 2022-09-28 22:44:39.420 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2022-09-28 22:44:39.420 ServerApp] jupyter_server_proxy | extension was successfully linked.
+[W 2022-09-28 22:44:39.424 LabApp] 'iopub_data_rate_limit' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-09-28 22:44:39.431 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-09-28 22:44:39.431 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2022-09-28 22:44:39.441 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-09-28 22:44:39.441 ServerApp] nbdime | extension was successfully linked.
+[I 2022-09-28 22:44:39.442 ServerApp] Writing Jupyter server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2022-09-28 22:44:39.629 ServerApp] notebook_shim | extension was successfully linked.
+[W 2022-09-28 22:44:39.649 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-09-28 22:44:39.651 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-09-28 22:44:39.652 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2022-09-28 22:44:39.661 ServerApp] jupyter_server_proxy | extension was successfully loaded.
+[I 2022-09-28 22:44:39.662 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.9/site-packages/jupyterlab
+[I 2022-09-28 22:44:39.662 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2022-09-28 22:44:39.667 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-09-28 22:44:39.673 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2022-09-28 22:44:39.678 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-09-28 22:44:39.724 ServerApp] nbdime | extension was successfully loaded.
+[I 2022-09-28 22:44:39.724 ServerApp] Serving notebooks from local directory: /
+[I 2022-09-28 22:44:39.725 ServerApp] Jupyter Server 1.17.0 is running at:
+[I 2022-09-28 22:44:39.725 ServerApp] http://run-6334cd87d917af7c81a5687e-kbjhh:8888/test-user-1/quick-start/notebookSession/6334cd87d917af7c81a5687e/lab/tree/mnt
+[I 2022-09-28 22:44:39.725 ServerApp]  or http://127.0.0.1:8888/test-user-1/quick-start/notebookSession/6334cd87d917af7c81a5687e/lab/tree/mnt
+[I 2022-09-28 22:44:39.725 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2022-09-28 22:44:40.660 ServerApp] 302 GET /test-user-1/quick-start/notebookSession/6334cd87d917af7c81a5687e/ (10.0.35.83) 0.71ms
+[I 2022-09-28 22:44:40.874 ServerApp] 302 GET /test-user-1/quick-start/notebookSession/6334cd87d917af7c81a5687e/ (10.0.35.83) 0.45ms
+[I 2022-09-28 22:44:41.125 ServerApp] 302 GET /test-user-1/quick-start/notebookSession/6334cd87d917af7c81a5687e/ (10.0.35.83) 0.46ms
+[W 2022-09-28 22:44:46.098 ServerApp] Kernel Provisioning: The 'local-provisioner' is not found.  This is likely due to the presence of multiple jupyter_client distributions and a previous distribution is being used as the source for entrypoints - which does not include 'local-provisioner'.  That distribution should be removed such that only the version-appropriate distribution remains (version >= 7).  Until then, a 'local-provisioner' entrypoint will be automatically constructed and used.
+    The candidate distribution locations are: ['/home/ubuntu/.local/lib/python3.9/site-packages/jupyter_client-7.3.2.dist-info']
+[I 2022-09-28 22:44:47.931 LabApp] Build is up to date
+[I 2022-09-28 22:45:46.293 ServerApp] New terminal with automatic name: 1
